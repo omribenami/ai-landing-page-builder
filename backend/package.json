@@ -1,0 +1,21 @@
+{
+  "name": "landing-builder-backend",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "openai": "^3.3.0",
+    "googleapis": "^130.0.0",
+    "twilio": "^4.0.0",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
